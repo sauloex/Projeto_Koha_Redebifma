@@ -1,0 +1,94 @@
+/* Arquivo CSS codificado em UTF-8 */
+/*@charset "UTF-8";
+/* Personalização CSS da Página inicial Equipe em 'IntranetUserCSS'*/
+
+/* Div - Empréstimo*/
+#header_search .form-title {
+    background-color: #0000CD; /*Cor de fundo vermelho vinho*/
+}
+
+/* Botão seta para direira após o campo pesquisar */
+#header_search input[type=submit], #header_search button[type=submit] {
+ background-color: #0000CD; /*Cor de fundo vermelho vinho*/
+}
+
+/* Botão seta para direira após o campo pesquisar ao passar o mouse*/
+#header_search input[type=submit]:hover,#header_search button[type=submit]:hover {
+ background-color: #000080; /*Vermelho mais escuro*/
+}
+
+/* Div - Emprestimo, Pesquisar, Empréstimo, Devolução, Renovação, Buscar usuário, Buscar no catálogo*/
+#header_search {
+ background-color: #0000CD; /*Cor de fundo vermelho vinho*/
+ border: 1px solid #0000CD;/*Largura = 1pixel, Estilo da linha: sólido, e Cor das bordas vermelho vinho #0000CD*/
+}
+
+/* Div - Com a lista 'ul' Empréstimo, Devolução, Renovação, Buscar usuário, Buscar no catálogo*/
+#header_search ul {
+ background-color: #0000CD; /*Cor de fundo vermelho vinho*/
+}
+
+/* Links da lista 'ul' Empréstimo, Devolução, Renovação, Buscar usuário, Buscar no catálogo*/
+#header_search .nav-tabs>li>a {
+ background-color: #0000CD; /*Cor de fundo vermelho vinho*/
+ border: 2px solid #0000CD;/*Largura = 2 pixels, Estilo da linha: sólido, e Cor das bordas vermelho vinho #0000CD*/
+}
+
+/* Links da lista 'ul' Empréstimo, Devolução, Renovação, Buscar usuário, Buscar no catálogo ao passar o mouse*/
+#header_search .nav-tabs>li>a:hover {
+ background-color: #000080;
+ border: 2px solid #000080;
+ border-bottom-color: #000000;
+}
+
+/* Link icone casinha inicial*/
+#breadcrumbs a[href="/cgi-bin/koha/mainpage.pl"] {
+ color: #0000CD; /*Cor vermelho vinho*/
+}
+/* Link Ajuda na página inicial Equipe canto direito superior*/
+a {
+ color: #0000CD; /*Cor vermelho vinho*/
+}
+
+/* Colunas dos módulos ao passar o mouse */
+ul.biglinks-list li a.icon_general:hover {
+ background-color: #0000CD; /*Cor de fundo vermelho vinho*/
+ color: #ffffff; /*Cor da fonte branca*/
+}
+
+/*Language = Idioma na parte de baixo da página */
+/*Personlisa a caixa */
+#changelanguage { 
+ background: #0000CDc0;
+} 
+
+/*Caixa Idioma padrão em inglês*/
+#changelanguage .navbar-nav li a {
+ color: #ffffff; /*Cor da fonte branca*/
+}
+
+/*Caixa Idioma escolhido*/
+#i18nMenu .navbar-text .currentlanguage {
+ color: #ffffff; /*Cor da fonte branca*/
+ font-weight: bold; /*Negriot*/
+ text-decoration: underline;/*Sublinhado*/
+}
+
+/*Página sobre o Koha*/
+/*Div - Lista - De Informação do servidor A Dedicatórias*/
+.nav-tabs>li>a {
+ background-color: #0000CD;/*Cor de fundo vermelho vinho*/
+ border: 2px solid #0000CD; /*Largura = 1pixel, Estilo da linha: sólido, e Cor das bordas vermelho vinho #0000CD*/
+}
+
+/*Div - Lista - De Informação do servidor a Dedicatórias ao passar o mouse*/
+.nav-tabs>li>a:hover {
+ background-color: #000080;/*Cor de fundo vermelho vinho*/
+ border: 2px solid #000080; /*Largura = 1pixel, Estilo da linha: sólido, e Cor das bordas vermelho vinho mais escuro #000080*/
+}
+
+/*Módulo Catalogação e Circulação - Links das colunas*/
+.buttons-list li a:hover {
+ background-color: #0000CD;
+}
+
