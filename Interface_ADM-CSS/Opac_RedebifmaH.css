@@ -1,0 +1,50 @@
+/* Menu abaixo caixa de pesquisa cor vinho*/
+a:link, a:visited {
+    color: #800000;
+    }
+    /* Iconnes carrinho, lista, bandeira idioma, acesse sua conta cor vinho*/
+    .fa.fa-icon-black, .fa.fa-icon-white {
+    color: #800000;
+    }
+    /* Menu menu carrinho cor vinho*/
+    #cartmenulink {
+    color: #800000;
+    }
+    /* Menu menu Listas cor vinho*/
+    .navbar-expand .navbar-nav .nav-link {
+    color: #800000;
+    }
+    /* Link limpar cor vinho*/
+    #members a.clearsh {
+    color: #800000;
+    }
+    /* Link pesquisa simples, fontes pesquisa de autoridades, fontes pesquisa avançada, Login e senha cor
+    vinho*/
+    .fonts-loaded body, .fonts-loaded optgroup, .fonts-loaded option, .fonts-loaded select, .fonts-loaded
+    textarea {
+    color: #800000;
+    }
+    /*Caixa resultados da pesquisa contorno da borda na cor vinho*/
+    .main {
+    border: 1.5px solid #800000;
+    }
+    /*Caixa geral de pesquisa contorno da borda na cor vinho*/
+    #opac-main-search {
+    border: 1.5px solid #800000;
+    }
+    /*Títulos dos libros no resultados das buscas em fundo cinza cor vinho*/
+    .table-striped tbody>tr:nth-child(odd)>td a, .table-striped tbody>tr:nth-child(odd)>th a {
+    color: #800000;
+    }
+    /*Icones reserva e carrinho no resultados cor vinho*/
+    .view a i.fa, .view button i.fa, .actions a i.fa, .actions button i.fa, .toolbar a i.fa, .toolbar button i.fa, #action
+    a i.fa, #action button i.fa {
+    color: #800000;
+    }
+    /*Palavras reserva e carrinho nos resultados das buscas em fundo cinza cor vinho*/
+    
+    .table-striped tbody>tr:nth-child(odd)>td a.btn.btn-link, .table-striped tbody>tr:nth-child(odd)>th a.btn.btn-
+    link {
+    
+    color: #800000;
+    }
