@@ -29,9 +29,9 @@ a:link, a:visited {
     border: 1.5px solid #800000;
     }
     /*Caixa geral de pesquisa contorno da borda na cor vinho*/
-    #opac-main-search {
+    /* #opac-main-search {
     border: 1.5px solid #800000;
-    }
+    } */
     /*Títulos dos libros no resultados das buscas em fundo cinza cor vinho*/
     .table-striped tbody>tr:nth-child(odd)>td a, .table-striped tbody>tr:nth-child(odd)>th a {
     color: #800000;
