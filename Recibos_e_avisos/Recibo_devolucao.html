@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- Modelo testado e Ok#################################################################################### -->
+    Prezado(a) <<borrowers.surname>>
+    Confira sua transação de devolução:
+
+    ----
+    Autor:<<biblio.author>>
+    Título:<<biblio.title>>
+    Cód. de Barras: <<items.barcode>>
+    Data do empréstimo: <<old_issues.issuedate>>
+    Devevolver em: <<old_issues.returndate>>
+
+    ----
+    Para mais informações e reclamações, entre em contato com a <<branches.branchname>>.
+
+    
+    <!-- Modelo ainda não testado################################################################################# -->        
+    Prezado(a) usuário(a)
+    Confira sua transação de devolução:
+    ----
+    [% biblio.title %]
+    [% biblio.author %]
+    [% biblio.title %]
+    [% items.barcode %]
+    [% issues.issuedate %]
+    [% old_issues.returndate %]
+    ----
+    Para mais informações e reclamações, entre em contato com a [% branches.branchname %].
+
+
+  <!-- Modelo testado e Ok ########################################################################### --> 
+    <h3 style="margin:0 0 6px 0;font-size:18px;line-height:1.3;">Prezado(a) usuário(a)</h3>
+    <p style="margin:0 0 12px 0;font-size:14px;">Confira sua transação de devolução:</p>
+    <hr>
+
+    ----
+    <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;font-size:14px;">
+            <tr>
+            <td style="padding:6px 0;width:15%;color:#374151;"><b>Autor</b>:</td>
+            <td style="padding:6px 0;font-weight:600;"><<biblio.author>></td>
+            </tr>
+            <tr>
+            <td style="padding:6px 0;color:#374151;"><b>Título</b>:</td>
+            <td style="padding:6px 0;font-weight:600;"><<biblio.title>></td>
+            </tr>
+            <tr>
+            <td style="padding:6px 0;color:#374151;"><b>Código de barras</b>:</td>
+            <td style="padding:6px 0;font-weight:600;"><<items.barcode>></td>
+            </tr>
+            <tr>
+            <td style="padding:6px 0;color:#374151;"><b>Data do empréstimo</b>:</td>
+            <td style="padding:6px 0;font-weight:600;"><<old_issues.issuedate>></td>
+            </tr>
+            <tr>
+            <td style="padding:6px 0;color:#FF0000;"><b>Data da devolução</b>:</td>
+            <td style="padding:6px 0;font-weight:600;"> <<old_issues.returndate>> </td>
+            </tr>
+    </table> 
+    <hr>   
+    ----
+
+    <p style="margin:0;font-size:14px;color:#374151;">
+        Para mais informações e reclamações, entre em contato com a <<branches.branchname>>
+    </p>
+    <p style="font-style: italic;">Rede de Bibliotecas do IFMA - REDEBIFMA.</p>   
+
+</body>
+</html>
